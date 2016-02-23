@@ -13,6 +13,11 @@ input
   height: 50px;
 }
 
+.mediafive
+{
+  border: 1px;
+}
+
 /* Media 500px TOSS */
 
 @media only screen and (max-width: 500px)
@@ -101,27 +106,5 @@ input
     display: none; 
   }
   
- /* input
-  {
-  font-size: 20px;
-  }*/
-
 }
 
-/* Media 1920 */
-
-/*@media only screen and (min-width: 1101px) and (max-width: 1920px)
- 
-{
-  body
-  {
-    background-color: Thistle;
-  }
-  
- .mediafive, .medianine, .mediaseven, .mediaeleven
-  { 
-    display: none; 
-  }
-
-}
-*/
