@@ -1,11 +1,16 @@
 body
 {
   background-color: gray;
+  font-size: 1.6em;
 }
 
 input
 {
   width: 50%;
+  font-family: 'open sans-serif', arial, verdana;
+  padding: 10px;
+  font-size:2rem;
+  height: 50px;
 }
 
 /* Media 500px */
@@ -23,6 +28,11 @@ input
   { 
     display: none; 
   }
+  
+ /* input
+  {
+  font-size: 14px;
+  }*/
 
 }
 
@@ -41,9 +51,14 @@ input
   { 
     display: none; 
   }
+  
+  /*input
+  {
+  font-size: 16px;
+  }*/
 
 }
-
+ 
 /* Media 900 */
 
 @media only screen and (min-width: 701px) and (max-width: 900px)
@@ -58,6 +73,11 @@ input
   { 
     display: none; 
   }
+  
+ /* input
+  {
+  font-size: 18px;
+  }*/
 
 }
 
@@ -75,6 +95,16 @@ input
   { 
     display: inline-block; 
   }
+  
+  .mediafive, .medianine, .mediaseven
+  { 
+    display: none; 
+  }
+  
+ /* input
+  {
+  font-size: 20px;
+  }*/
 
 }
 
