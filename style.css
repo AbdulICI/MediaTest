@@ -1,22 +1,23 @@
-/* Media 500px */
-
 body
 {
-  background-color: #DAD9D9;
+  background-color: gray;
 }
+
+input
+{
+  width: 50%;
+}
+
+/* Media 500px */
 
 @media only screen and (max-width: 500px)
  
 {
   body
   {
-    background-color: red;
+    background-color: rgb(100, 0, 0);
   }
   
-  .mediafive 
-  { 
-    display: inline-block; 
-  }
   
  .mediaseven, .medianine, .mediaeleven
   { 
@@ -36,11 +37,6 @@ body
     background-color: aqua;
   }
   
-  .mediaseven 
-  { 
-    display: inline-block; 
-  }
-  
  .mediafive, .medianine, .mediaeleven
   { 
     display: none; 
@@ -56,11 +52,6 @@ body
   body
   {
     background-color: green;
-  }
-  
-  .medianine 
-  { 
-    display: inline-block; 
   }
   
  .mediafive, .mediaseven, .mediaeleven
@@ -84,17 +75,12 @@ body
   { 
     display: inline-block; 
   }
-  
- .mediafive, .medianine, .mediaseven
-  { 
-    display: none; 
-  }
 
 }
 
 /* Media 1920 */
 
-@media only screen and (min-width: 1101px) and (max-width: 1920px)
+/*@media only screen and (min-width: 1101px) and (max-width: 1920px)
  
 {
   body
@@ -108,3 +94,4 @@ body
   }
 
 }
+*/
