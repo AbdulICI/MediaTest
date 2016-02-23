@@ -15,7 +15,9 @@ input
 
 .mediafive
 {
-  border: 1px;
+  border: solid 4px;
+  padding: 2rem;
+  margin: 10px;
 }
 
 /* Media 500px TOSS */
@@ -25,7 +27,7 @@ input
 {
   body
   {
-    background-color: rgb(100, 0, 0);
+    background-color: rgb(100, 100, 100);
   }
   
   
