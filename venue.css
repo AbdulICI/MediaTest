@@ -2,25 +2,40 @@ body
 {
   background-color: #888;
 }
+.container {
+  display: table;
+ /* table-layout:fixed;*/
+ width: 100%;
+}
 
 .toprow
 {
   border: solid pink 2px;
-  padding: .05rem;
+ padding:0.5rem;
   width: 98%;
   /*height: auto;*/
   margin: 2px;
-  display: table;
+  display: table-row;
   text-align:center;
-  height: 30px;
+}
+
+.toprow img 
+{
+  
+  /*
+  max-width:100%;
+  height:auto;*/
+  max-height:10%;
+  width:auto;
 }
 
 .cell
 {
-  padding: .08rem;
+  padding: 0.9rem;
   margin: 2px;
   width: 18%;
   display: table-cell;  
+  max-height:100%;
 }
 
 .blue
