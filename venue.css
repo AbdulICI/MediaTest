@@ -6,49 +6,67 @@ body
 .toprow
 {
   border: solid pink 2px;
-  padding: 2rem;
+  /*padding: .05rem;*/
   width: 98%;
-  margin: 2px;
-  display: flex;
+  height: auto;
+  /*margin: 2px;*/
+  /*display: flex;*/
+  float: left;
+  position: relative;
 }
 
 .lefttop
 {
   border: solid blue 2px;
-  padding: 2rem;
-  margin: 2px;
+  /*padding: .05rem;
+  margin: 2px;*/
   width: 18%;
+  height: 90px;
+  float: left;
+  position: relative;
 }       	
 
 .leftmiddletop
 {
   border: solid red 2px;
-  padding: 2rem;
-  margin: 2px;
+  /*padding: .05rem;
+  margin: 2px;*/
   width: 18%;
+  height: 90px;
+  float: left;
+  position: relative;
 }
 
 .middletop
 {
   border: solid green 2px;
-  padding: 2rem;
-  margin: 2px;
+  /*padding: .05rem;
+  margin: 2px;*/
   width: 18%;
+  height: 90px;
+  float: left;
+  position: relative;
 }
 
 .rightmiddletop
 {
   border: solid orange 2px;
-  padding: 2rem;
-  margin: 2px;
+  /*padding: .05rem;
+  margin: 2px;*/
   width: 18%;
+  height: 90px;
+  float: left;
+  position: relative;
 }
 
 .righttop
 {
   border: solid 2px;
-  padding: 2rem;
-  margin: 2px;
+  /*padding: .05rem;
+  margin: 2px;*/
   width: 18%;
+  height: 90px;
+  float: left;
+  position: relative;
 }
 
