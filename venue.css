@@ -15,58 +15,36 @@ body
   height: 30px;
 }
 
-.lefttop
+.cell
 {
-  border: solid blue 2px;
   padding: .08rem;
   margin: 2px;
   width: 18%;
   display: table-cell;  
-}       	
+}
 
-.leftmiddletop
+.blue
+{
+  border: solid blue 2px;
+}
+
+.red
 {
   border: solid red 2px;
-  padding: .08rem;
-  margin: 2px;
-  width: 18%;
-/*  height: 90px;*/
-   display: table-cell; 
 }
 
-.middletop
+.green
 {
   border: solid green 2px;
-  padding: .08rem;
-  margin: 2px;
-  width: 18%;
- /* height: 90px;*/
-/*  float: left;
-  position: relative;*/
-   display: table-cell; 
 }
 
-.rightmiddletop
+.orange
 {
   border: solid orange 2px;
-  padding: .08rem;
-  margin: 2px;
-  width: 18%;
- /* height: 90px;*/
-/*  float: left;
-  position: relative;*/
-   display: table-cell; 
 }
 
-.righttop
+.black
 {
-  border: solid 2px;
-  padding: .08rem;
-  margin: 2px;
-  width: 18%;
-/*  height: 90px;*/
-/*  float: left;
-  position: relative;*/
-   display: table-cell; 
+  border: solid black 2px;
 }
 
