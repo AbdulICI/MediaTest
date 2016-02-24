@@ -6,67 +6,67 @@ body
 .toprow
 {
   border: solid pink 2px;
-  /*padding: .05rem;*/
+  padding: .05rem;
   width: 98%;
-  height: auto;
-  /*margin: 2px;*/
-  /*display: flex;*/
-  float: left;
-  position: relative;
+  /*height: auto;*/
+  margin: 2px;
+  display: table;
+  text-align:center;
+  height: 30px;
 }
 
 .lefttop
 {
   border: solid blue 2px;
-  /*padding: .05rem;
-  margin: 2px;*/
+  padding: .08rem;
+  margin: 2px;
   width: 18%;
-  height: 90px;
-  float: left;
-  position: relative;
+  display: table-cell;  
 }       	
 
 .leftmiddletop
 {
   border: solid red 2px;
-  /*padding: .05rem;
-  margin: 2px;*/
+  padding: .08rem;
+  margin: 2px;
   width: 18%;
-  height: 90px;
-  float: left;
-  position: relative;
+/*  height: 90px;*/
+   display: table-cell; 
 }
 
 .middletop
 {
   border: solid green 2px;
-  /*padding: .05rem;
-  margin: 2px;*/
+  padding: .08rem;
+  margin: 2px;
   width: 18%;
-  height: 90px;
-  float: left;
-  position: relative;
+ /* height: 90px;*/
+/*  float: left;
+  position: relative;*/
+   display: table-cell; 
 }
 
 .rightmiddletop
 {
   border: solid orange 2px;
-  /*padding: .05rem;
-  margin: 2px;*/
+  padding: .08rem;
+  margin: 2px;
   width: 18%;
-  height: 90px;
-  float: left;
-  position: relative;
+ /* height: 90px;*/
+/*  float: left;
+  position: relative;*/
+   display: table-cell; 
 }
 
 .righttop
 {
   border: solid 2px;
-  /*padding: .05rem;
-  margin: 2px;*/
+  padding: .08rem;
+  margin: 2px;
   width: 18%;
-  height: 90px;
-  float: left;
-  position: relative;
+/*  height: 90px;*/
+/*  float: left;
+  position: relative;*/
+   display: table-cell; 
 }
 
