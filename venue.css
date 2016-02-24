@@ -6,12 +6,10 @@ body
 .toprow
 {
   border: solid pink 2px;
-  padding: 2px;
+  padding: 2rem;
   width: 98%;
   margin: 2px;
-  float: left;
-  display: inline-block;
-  position: relative;
+  display: flex;
 }
 
 .lefttop
@@ -20,8 +18,6 @@ body
   padding: 2rem;
   margin: 2px;
   width: 18%;
-  float: left;
-  display: inline-block;
 }       	
 
 .leftmiddletop
@@ -30,9 +26,6 @@ body
   padding: 2rem;
   margin: 2px;
   width: 18%;
-  float: left;
-  display: inline-block;
-  position: absolute;
 }
 
 .middletop
@@ -41,9 +34,6 @@ body
   padding: 2rem;
   margin: 2px;
   width: 18%;
-  float: left;
-  display: inline-block;
-    position: absolute;
 }
 
 .rightmiddletop
@@ -52,9 +42,6 @@ body
   padding: 2rem;
   margin: 2px;
   width: 18%;
-  float: left;
-  display: inline-block;
-  position: absolute;
 }
 
 .righttop
@@ -63,8 +50,5 @@ body
   padding: 2rem;
   margin: 2px;
   width: 18%;
-  float: left;
-  display: inline-block;
-  position: absolute;
 }
 

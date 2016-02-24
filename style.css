@@ -4,6 +4,7 @@ body
   font-size: 1.6em;
 }
 
+
 input
 {
   width: 50%;
@@ -11,6 +12,14 @@ input
   padding: 10px;
   font-size:2rem;
   height: 50px;
+}
+
+.testinput
+{
+ font-size: 1.05em;  
+ width: 50%;
+ margin-right: 2px;
+ margin-bottom: 4px;
 }
 
 .mediafive
